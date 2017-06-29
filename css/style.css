@@ -1,0 +1,39 @@
+@charset "utf-8";
+html,body{
+    height: 100%;
+}
+body{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+thead,tfoot{
+    background-color: #383838;
+}
+tbody{
+    background-color: #464646;
+}
+th,td{
+    width: 10%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #8d8d8d;
+}
+#chart1,#chart2{
+    display: inline-block;
+}
+#chart1{
+    float: left;
+    width: 70%;
+    height: 500px;
+}
+#chart2{
+    float: right;
+    width: 30%;
+    height: 500px;
+}
